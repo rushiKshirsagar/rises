@@ -36,7 +36,7 @@ export default function Contact() {
   ]
 
   return (
-    <section className="section-padding bg-white">
+    <section className="section-padding bg-white" id="contact">
       <div className="container-max">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -64,7 +64,7 @@ export default function Contact() {
               viewport={{ once: true }}
               className="text-center group"
             >
-              <div className="bg-gray-50 rounded-xl p-6 hover:bg-primary-50 transition-colors duration-300" id="contact">
+              <div className="bg-gray-50 rounded-xl p-6 hover:bg-primary-50 transition-colors duration-300">
                 <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary-200 transition-colors duration-300">
                   <info.icon className="h-8 w-8 text-primary-600" />
                 </div>

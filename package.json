@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:gh-pages": "next build && xcopy out docs /E /I /Y",
     "start": "next start",
     "lint": "next lint"
   },

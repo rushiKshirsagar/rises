@@ -13,7 +13,7 @@ export default function Header() {
     { name: 'Products', href: '/#products' },
     { name: 'Impact', href: '/#impact' },
     { name: 'Evidence', href: '/#evidence' },
-    { name: 'About', href: '/about' },
+    { name: 'About Us', href: '/about' },
     { name: 'Contact Us', href: '/#contact' },
   ]
 
@@ -24,7 +24,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
-              <img src="/assets/logo.png" alt="Rises" className="h-10" />
+              <img src="/assets/logo.png" alt="Rises" className="h-12" />
             </Link>
           </div>
 
