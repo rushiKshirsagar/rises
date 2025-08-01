@@ -34,7 +34,7 @@ export default function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`px-3 py-2 text-sm font-medium transition-colors duration-200 ${
+                className={`px-3 py-2 text-lg font-medium transition-colors duration-200 ${
                   pathname === item.href 
                     ? 'text-primary-600' 
                     : 'text-gray-700 hover:text-primary-600'
