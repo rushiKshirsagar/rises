@@ -19,7 +19,7 @@ export default function Impact() {
       description: 'The end-to-end Lung Cancer care continuum detects lung nodules early, measures for disease progression and manages cases to support clinicians, improving outcomes for patients.',
       image: 'Lung Cancer',
       stats: ['95%', 'Sensitivity', 'Early Detection'],
-      color: 'from-blue-500 to-blue-600'
+      color: 'from-primary-500 to-primary-600'
     },
     {
       title: 'Enabling Timely Intervention',
